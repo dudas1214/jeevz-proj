@@ -39,15 +39,17 @@ body{background-color: #1F2D54;
     background-color: #262863;
     color: #fff;
     text-align: center;
-    height: 200px;
-    padding: 10px;
+    height: 130px;
+    margin: 0px;
     border-bottom: 20px solid #ed4c40;
 }
 
 .plans-header h1{
-    margin: 0;}
+    margin: 0;
+    font-weight: 500;}
 .plans-header p{
     margin: 0;
+    font-size: 14px;
 }
 .plans > div{
     display: flex;
@@ -69,5 +71,25 @@ body{background-color: #1F2D54;
 }
 .plans-content ul{
     padding: 0 0 0 20px;
+    font-size: 14px;
 
+}
+
+.plans-content h1{
+    font-size: 25px;
+    text-align: center;
+    margin: 0;  
+}
+
+.plans-content a{
+    border-radius:  40px;
+    size: 15px;
+    display: block;
+    color: #1F2D54;
+    background-color: #efefef;  
+    text
+}
+.annual{
+    border-radius: 20px;
+    box-shadow: 11px 11px 11px 11px rgb(43, 42, 42);
 }
