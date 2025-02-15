@@ -45,7 +45,7 @@ body{background-color: #1F2D54;
     align-items:center;
     font-weight: bold;
     font-size:20px;
-    width: 160px;
+    width: 165px;
     height: 20px;
     background-color: #ed4c40;
     position: relative;
@@ -55,6 +55,10 @@ body{background-color: #1F2D54;
     border-top: 12px solid #ed4c40;
 }
 
+.popular p{
+    color: white;
+    margin-right: 20px;
+}
 .plans-header{
     overflow: hidden;
     background-color: #262863;
@@ -73,9 +77,10 @@ body{background-color: #1F2D54;
     font-weight: 525;
     font-size: 33px;
 }
-.plans-header p{
-    margin-top: 10px;
-    font-size: 14px;
+.plans-header p:not(.popular){
+    margin-top: 6px;
+    font-size: 18px;
+    line-height: 21px;
 }
 .plans > div{
     display: flex;
@@ -177,10 +182,16 @@ body{background-color: #1F2D54;
     margin-bottom: 10px;
     line-height: 1.3;
 }
-
+.monthly{
+    border-bottom-left-radius: 20px;
+}
 .annual{
     border-radius: 20px;
     box-shadow: 10px 15px 15px 15px rgba(0,0,0,0.1); 
     height: 620px;
     z-index: 1;
+}
+
+.concierge{
+    border-bottom-right-radius: 20px;
 }
